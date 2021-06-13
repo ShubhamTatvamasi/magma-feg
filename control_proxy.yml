@@ -17,6 +17,9 @@ cloud_port: 443
 bootstrap_address: bootstrapper-controller.magma.test
 bootstrap_port: 443
 
+fluentd_address: fluentd.magma.test
+fluentd_port: 24224
+
 # Option to use nghttpx for proxying. If disabled, the individual
 # services would establish the TLS connections themselves.
 proxy_cloud_connections: True
