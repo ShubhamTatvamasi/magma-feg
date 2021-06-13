@@ -37,3 +37,14 @@ verify connection:
 cd /var/opt/magma/docker
 docker-compose exec magmad /usr/local/bin/checkin_cli.py
 ```
+---
+
+### Enabling Relay To FeG
+
+https://docs.magmacore.org/docs/next/feg/deploy_configure#enabling-relay-to-feg
+
+check logs:
+```bash
+docker logs -f session_proxy
+```
+
