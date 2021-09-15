@@ -24,6 +24,7 @@ install FeG:
 ```bash
 sudo ./install_gateway.sh feg
 ```
+> Delete code blocks: `script hasn't changed` and `docker login`
 ---
 
 Register:
