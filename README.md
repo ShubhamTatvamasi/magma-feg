@@ -38,7 +38,23 @@ verify connection:
 cd /var/opt/magma/docker
 docker-compose exec magmad /usr/local/bin/checkin_cli.py
 ```
+
+stop FeG:
+```bash
+cd /var/opt/magma/docker
+docker-compose down
+```
+
+Restart services:
+```bash
+cd /var/opt/magma/docker
+./recreate_services.sh
+```
+
+
 ---
+
+
 
 ### Enabling Relay To FeG
 
