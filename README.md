@@ -22,6 +22,7 @@ control_proxy.yml
 
 Delete code blocks: `script hasn't changed` and `docker login`:
 ```bash
+cp install_gateway.sh install_gateway.sh.bak
 sed -i '80,84d;181,184d' install_gateway.sh
 ```
 
