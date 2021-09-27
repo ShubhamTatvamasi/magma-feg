@@ -20,11 +20,15 @@ control_proxy.yml
 .env
 ```
 
+Delete code blocks: `script hasn't changed` and `docker login`:
+```bash
+sed -i '80,84d;181,184d' install_gateway.sh
+```
+
 install FeG:
 ```bash
 sudo ./install_gateway.sh feg
 ```
-> Delete code blocks: `script hasn't changed` and `docker login`
 ---
 
 Register:
