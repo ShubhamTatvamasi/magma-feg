@@ -2,15 +2,14 @@
 
 ### Install FeG
 
-download and unzip magma repo:
+clone the magma repo:
 ```bash
-wget https://github.com/magma/magma/archive/refs/tags/v1.6.0.zip
-unzip v1.6.0.zip
+git clone -b v1.8 https://github.com/magma/magma.git --depth 1
 ```
 
 move to FeG install folder:
 ```bash
-cd magma-1.6.0/orc8r/tools/docker
+cd magma/orc8r/tools/docker
 ```
 
 copy following file to above directory:
